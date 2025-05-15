@@ -2,6 +2,6 @@ package message
 
 import "fmt"
 
-func PrintMessage(msg string) {
-	fmt.Println(msg)
+func PrintMessage(prefix, message string) {
+	fmt.Printf("%s: %s\n", prefix, message)
 }
