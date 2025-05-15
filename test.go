@@ -1,4 +1,4 @@
-package gopack
+package go_pack
 
 import "fmt"
 
